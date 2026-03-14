@@ -92,9 +92,15 @@ export default function Home() {
               Site Reliability Engineer · DevOps · AWS · Kubernetes
             </p>
             <p className="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed max-w-xl mb-6">
-              DevOps Engineer with 5+ years of experience optimizing software development lifecycles
-              and infrastructure scalability. Skilled in CI/CD, container orchestration, AWS cloud,
-              and SRE practices.
+              DevOps & Site Reliability Engineer with 5+ years of hands-on experience optimizing
+              software development lifecycles and enhancing infrastructure scalability. Proficient in
+              AWS, Terraform, and Ansible for cloud infrastructure management, with deep expertise in
+              Docker and Kubernetes (EKS) for scalable microservices deployment. Proven track record
+              in cost reduction, zero-downtime deployments, and cross-functional team leadership —
+              including leading a Graviton migration achieving 92% workload adoption and 40%
+              infrastructure cost reduction. Experienced with full observability stacks including
+              Datadog, Prometheus, Grafana, Loki, and Fluent Bit, and incident management via
+              PagerDuty.
             </p>
             {/* Social links */}
             <div className="flex items-center gap-2">
