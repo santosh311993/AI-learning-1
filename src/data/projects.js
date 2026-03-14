@@ -1,0 +1,67 @@
+export const projects = [
+  {
+    id: 1,
+    title: 'EKS Canary Upgrade Framework',
+    description:
+      'Zero-downtime rolling upgrade framework for EKS clusters built with Ansible. Enables controlled canary upgrades with automated health checks, rollback triggers, and node group lifecycle management across multi-cluster AWS environments.',
+    tags: ['Kubernetes', 'EKS', 'Ansible', 'AWS', 'SRE'],
+    badge: '6Sense · Production',
+    badgeColor: 'bg-teal-100 text-teal-800 dark:bg-teal-900/40 dark:text-teal-300',
+    github: 'https://github.com/santosh311993',
+    demo: null,
+    featured: true,
+    gradient: 'from-teal-500 to-cyan-600',
+  },
+  {
+    id: 2,
+    title: 'Graviton Migration (x86 → ARM64)',
+    description:
+      'Led end-to-end migration of Paytm workloads from x86 to AWS Graviton (ARM64) architecture. Achieved 92% workload adoption and 40% infrastructure cost reduction across Kubernetes clusters with zero service disruption.',
+    tags: ['AWS Graviton', 'Kubernetes', 'Cost Optimisation', 'ARM64', 'EKS'],
+    badge: 'Paytm · 40% cost reduction',
+    badgeColor: 'bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300',
+    github: 'https://github.com/santosh311993',
+    demo: null,
+    featured: true,
+    gradient: 'from-amber-500 to-orange-600',
+  },
+  {
+    id: 3,
+    title: 'Keycloak SAML SSO Integration',
+    description:
+      'Unified SSO implementation using Keycloak SAML across AWS console, Jenkins, and JIRA. Centralised identity management for engineering teams, eliminating credential sprawl and streamlining access control.',
+    tags: ['Keycloak', 'SAML', 'SSO', 'AWS IAM', 'Jenkins', 'JIRA'],
+    badge: 'Paytm · Identity & Access',
+    badgeColor: 'bg-violet-100 text-violet-800 dark:bg-violet-900/40 dark:text-violet-300',
+    github: 'https://github.com/santosh311993',
+    demo: null,
+    featured: true,
+    gradient: 'from-violet-500 to-purple-600',
+  },
+  {
+    id: 4,
+    title: 'HashiCorp Vault Deployment',
+    description:
+      'Designed and deployed HashiCorp Vault for secrets management across AWS and on-prem environments at MPL. Configured dynamic secrets, auth backends, and policies to secure service-to-service credentials across high-traffic gaming infrastructure.',
+    tags: ['HashiCorp Vault', 'AWS', 'Secrets Management', 'Security'],
+    badge: 'MPL · Secrets Management',
+    badgeColor: 'bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300',
+    github: 'https://github.com/santosh311993',
+    demo: null,
+    featured: false,
+    gradient: 'from-blue-500 to-indigo-600',
+  },
+  {
+    id: 5,
+    title: 'Observability Stack Automation',
+    description:
+      'Full monitoring and observability stack deployed via automation at 6Sense: Prometheus + Grafana for metrics, Loki + Promtail for log aggregation, Fluent Bit for log shipping, and Datadog for APM — all managed as code across EKS clusters.',
+    tags: ['Prometheus', 'Grafana', 'Loki', 'Datadog', 'Fluent Bit', 'Kubernetes'],
+    badge: '6Sense · Observability',
+    badgeColor: 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300',
+    github: 'https://github.com/santosh311993',
+    demo: null,
+    featured: false,
+    gradient: 'from-emerald-500 to-teal-600',
+  },
+]
