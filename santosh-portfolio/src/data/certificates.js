@@ -4,7 +4,7 @@ export const certificates = [
     title: 'AWS Certified Solutions Architect – Associate',
     issuer: 'Amazon Web Services',
     year: '2023',
-    image: null,
+    image: '/AWS-Solution Architect Associate.pdf',
     logoSrc: null,
   },
   {
