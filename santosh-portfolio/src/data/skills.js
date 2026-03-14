@@ -1,7 +1,10 @@
 export const skillGroups = [
   {
     category: 'Cloud Platforms',
-    skills: ['AWS EC2', 'VPC', 'S3', 'ELB', 'Route 53', 'RDS', 'CloudFront', 'IAM', 'CloudWatch'],
+    subGroups: [
+      { name: 'AWS', skills: ['AWS EC2', 'VPC', 'S3', 'ELB', 'Route 53', 'RDS', 'CloudFront', 'IAM', 'CloudWatch'] },
+      { name: 'GCP', skills: [] },
+    ],
   },
   {
     category: 'Container & Orchestration',

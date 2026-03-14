@@ -6,6 +6,7 @@ import {
   SiAmazonroute53,
   SiAmazonrds,
   SiAmazoncloudwatch,
+  SiGooglecloud,
   SiKubernetes,
   SiDocker,
   SiIstio,
@@ -39,6 +40,7 @@ const SKILL_ICONS = {
   'CloudFront':     { icon: SiAmazonwebservices,  color: '#FF9900', abbr: 'CF' },
   'IAM':            { icon: SiAmazonwebservices,  color: '#FF9900', abbr: 'IAM' },
   'CloudWatch':     { icon: SiAmazoncloudwatch,   color: '#FF9900' },
+  'GCP':            { icon: SiGooglecloud,      color: '#4285F4' },
   // Container & Orchestration
   'Kubernetes (EKS)': { icon: SiKubernetes,       color: '#326CE5' },
   'Docker':           { icon: SiDocker,           color: '#2496ED' },
@@ -144,11 +146,29 @@ export default function Skills() {
                 <div className="flex-1 h-px bg-zinc-100 dark:bg-zinc-800" />
               </div>
 
-              <div className="flex flex-wrap gap-2">
-                {group.skills.map(skill => (
-                  <SkillTile key={skill} name={skill} />
-                ))}
-              </div>
+              {group.subGroups ? (
+                <div className="space-y-4">
+                  {group.subGroups.map(sub => (
+                    <div key={sub.name}>
+                      <p className="text-[10px] font-semibold text-zinc-400 dark:text-zinc-500 uppercase tracking-widest mb-2 ml-1">
+                        {sub.name}
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <SkillTile name={sub.name} />
+                        {sub.skills.map(skill => (
+                          <SkillTile key={skill} name={skill} />
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="flex flex-wrap gap-2">
+                  {group.skills.map(skill => (
+                    <SkillTile key={skill} name={skill} />
+                  ))}
+                </div>
+              )}
             </motion.div>
           ))}
         </div>
