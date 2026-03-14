@@ -20,7 +20,7 @@ export const experiences = [
     company: 'Paytm',
     role: 'Senior DevOps Engineer',
     period: 'Feb 2022 — Jul 2024',
-    logo: '/paytm.png',
+    logo: '/paytm.jpeg',
     logoFallback: 'PT',
     url: 'https://paytm.com/',
     highlights: [
