@@ -25,29 +25,41 @@ export default function About() {
           className="space-y-4 text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl"
         >
           <p>
-            I&apos;m a Senior Software Developer with{' '}
-            <span className="text-zinc-900 dark:text-zinc-100 font-medium">7.5 years of experience</span>{' '}
-            building high-quality, scalable applications that drive real business outcomes.
+            I&apos;m a{' '}
+            <span className="text-zinc-900 dark:text-zinc-100 font-medium">DevOps & Site Reliability Engineer</span>{' '}
+            with 5+ years of hands-on experience optimizing software development lifecycles and enhancing
+            infrastructure scalability across high-traffic production environments.
           </p>
           <p>
-            My expertise spans the full stack — from crafting performant{' '}
-            <span className="text-zinc-900 dark:text-zinc-100 font-medium">React</span> frontends and
-            robust <span className="text-zinc-900 dark:text-zinc-100 font-medium">Node.js</span> backends
-            to designing efficient database schemas with{' '}
-            <span className="text-zinc-900 dark:text-zinc-100 font-medium">PostgreSQL and MongoDB</span>.
+            My core expertise includes{' '}
+            <span className="text-zinc-900 dark:text-zinc-100 font-medium">CI/CD pipeline design</span>,{' '}
+            <span className="text-zinc-900 dark:text-zinc-100 font-medium">container orchestration</span>, and{' '}
+            <span className="text-zinc-900 dark:text-zinc-100 font-medium">workflow automation</span>. I am
+            proficient in AWS, Terraform, and Ansible for cloud infrastructure management, with deep expertise
+            in Docker and Kubernetes for scalable microservices deployment.
           </p>
           <p>
-            I&apos;m passionate about the intersection of software and AI. I&apos;ve built production AI systems
-            using{' '}
+            I have a proven track record in{' '}
+            <span className="text-zinc-900 dark:text-zinc-100 font-medium">cost reduction</span>,{' '}
+            <span className="text-zinc-900 dark:text-zinc-100 font-medium">zero-downtime deployments</span>, and
+            cross-functional team leadership — including leading a Graviton migration at Paytm that achieved
+            92% workload adoption and a{' '}
+            <span className="text-zinc-900 dark:text-zinc-100 font-medium">40% reduction in infrastructure costs</span>.
+          </p>
+          <p>
+            I&apos;m experienced with the full observability stack —{' '}
             <span className="text-zinc-900 dark:text-zinc-100 font-medium">
-              LangChain, LangGraph, and OpenAI GPT models
-            </span>
-            , including an AI chatbot that won first place at the 2025 Tech9 AI Hackathon.
+              Datadog, Prometheus, Grafana, Loki, and Fluent Bit
+            </span>{' '}
+            — and incident management using PagerDuty. I also mentor junior engineers and lead knowledge
+            transfer sessions to accelerate team ramp-up.
           </p>
           <p>
-            I thrive in Agile environments and have collaborated with distributed global teams to
-            deliver solutions for enterprise clients including{' '}
-            <span className="text-zinc-900 dark:text-zinc-100 font-medium">Autodesk, DHL, and MonetaGo</span>.
+            I hold an{' '}
+            <span className="text-zinc-900 dark:text-zinc-100 font-medium">
+              AWS Certified Solutions Architect – Associate
+            </span>{' '}
+            certification and a B.E. in Computer Engineering from Pune Institute of Computer Technology.
           </p>
         </motion.div>
       </div>
