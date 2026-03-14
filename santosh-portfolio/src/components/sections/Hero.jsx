@@ -27,7 +27,10 @@ export default function Hero() {
             </h1>
             <p className="text-base text-zinc-600 dark:text-zinc-400 mb-5 leading-relaxed max-w-lg">
               Site Reliability Engineer with 5+ years of experience in DevOps, Kubernetes, AWS, and
-              CI/CD automation. Passionate about infrastructure reliability and scalability.
+              CI/CD automation. Skilled in cloud infrastructure management using Terraform and Ansible,
+              container orchestration with EKS and Docker, and full observability stacks including
+              Datadog, Prometheus, and Grafana. Passionate about infrastructure reliability, cost
+              optimization, and zero-downtime deployments at scale.
             </p>
 
             {/* Social links */}
